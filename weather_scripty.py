@@ -4,7 +4,7 @@
 
 import urllib2
 import json
-key = '6288250d19206179'
+key = '6288250d19206179' # Tutorial API key
 
 zip = raw_input('For which zip code would you like to see the weather? ')
 url = 'http://api.wunderground.com/api/' + key + '/geolookup/conditions/q/UT/' + zip + '.json'
