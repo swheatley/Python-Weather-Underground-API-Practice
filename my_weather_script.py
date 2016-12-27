@@ -4,7 +4,8 @@
 
 import urllib2
 import json
-key = '6288250d19206179'
+key = '#########'
+# You would need to get your own API key from Underground Weather API
 
 state_local = raw_input("What state do you live in? ")
 city_local = raw_input("Ok, now what city do you live in? ")
